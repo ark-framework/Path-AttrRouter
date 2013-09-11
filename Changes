@@ -1,5 +1,7 @@
 Revision history for Perl extension Path::AttrRouter
 
+{{$NEXT}}
+
 0.03 2013-02-26T12:40:56+09:00
      - s/Any::Moose/Mouse/ (Songmu)
 

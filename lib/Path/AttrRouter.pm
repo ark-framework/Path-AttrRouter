@@ -435,8 +435,7 @@ Base package namespace of your controller
 
 C<action_cache> path if using action caching
 
-The action cache is aimed at impermanent environment, eg:
-CGI or development.
+The action cache is aimed at impermanent environment, e.g. CGI or development.
 
 =back
 

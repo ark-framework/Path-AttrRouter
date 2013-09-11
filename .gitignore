@@ -1,5 +1,10 @@
-README
-META.json
 META.yml
 MYMETA.json
 MYMETA.yml
+/Path-AttrRouter-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
+!LICENSE
