@@ -25,12 +25,6 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "6.36",
-            "Test::More" : "0.88"
-         }
-      },
       "configure" : {
          "requires" : {
             "CPAN::Meta" : "0",
@@ -53,7 +47,15 @@
             "Module::Pluggable::Object" : "0",
             "Mouse" : "1.05",
             "Text::SimpleTable" : "1.1",
-            "Try::Tiny" : "0"
+            "Try::Tiny" : "0",
+            "perl" : "5.008_001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Temp" : "0",
+            "Test::More" : "0.98",
+            "URI::Escape" : "0"
          }
       }
    },
@@ -69,7 +71,7 @@
          "web" : "https://github.com/ark-framework/Path-AttrRouter"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "tokuhirom <tokuhirom@gmail.com>",
       "Ryo Miyake <ryo.studiom@gmail.com>",

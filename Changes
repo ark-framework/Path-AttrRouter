@@ -2,6 +2,9 @@ Revision history for Perl extension Path::AttrRouter
 
 {{$NEXT}}
 
+0.04 2013-09-11T16:17:23Z
+    - first release on CPAN
+
 0.03 2013-02-26T12:40:56+09:00
      - s/Any::Moose/Mouse/ (Songmu)
 
