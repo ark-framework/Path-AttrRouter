@@ -311,7 +311,7 @@ sub _register_action {
     $container->{ $action->name } = $action;
 }
 
-# synbol table walking code from Mouse::Util
+# symbol table walking code from Mouse::Util
 sub _search_loaded_classes {
     my ($self, $path) = @_;
     # walk the symbol table tree to avoid autovififying
